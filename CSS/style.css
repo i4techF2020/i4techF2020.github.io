@@ -1,0 +1,868 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+    html, body
+    {
+        /*height: 100%;*/
+        background-color: white;
+        
+    }
+    
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        color: #4E4D4D;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    
+    h2, h3
+    {
+        margin: 8px;
+        padding-bottom: 5px;
+    }
+
+    h1 {
+        font-family: 'Barlow Condensed';
+        font-size: 3.5em;
+        padding: 20px;
+        font-weight: 100;
+        color: #8250A7;
+        text-align: center; 
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+    }
+    
+    p, ol, ul
+    {
+        margin-top: 0;
+        margin-bottom:0;
+
+    }
+    
+    p{
+        line-height: 180%;
+
+    }
+    
+    strong
+    {
+        color: rgba(5,115,152,1);
+    }
+    
+    a{
+        color: #383838;
+    }
+    
+    a:hover{
+        text-decoration: none;
+        color: grey;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 8px;
+        font-family: 'Barlow Condensed';
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-top:0;
+    }
+
+/*Home Page grid*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 16.66666% 16.66666% 16.66666% 16.66666% 16.66666% 16.66666%;
+    padding: 5px;
+}
+
+.logo{
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.topbuttons{
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 1;
+    margin-top: 15px;
+}
+
+.about {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 5;
+  font-size: 30px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 15pt;
+  background-image: url("images/background1.jpg");
+}
+
+.about p {
+    font-family: 'Dosis';
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+.about h2 {
+    font-family: 'Barlow Condensed';
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.about h3{
+    padding:5px;
+    font-family: 'Barlow Condensed';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgb(94,73,129);
+    font-weight: bolder;
+}
+
+.about li {
+    font-family: 'Dosis';
+    font-size: 19px;
+    padding: 5px;
+}
+
+.labpic {
+   grid-column: 5 / span 2;
+   grid-row: 2 / span 5;
+}
+
+.labpic img {
+   padding-left:15px;
+   padding-top: 1px;
+   border-left: 2px solid #AFA4C0;
+   margin-left: 15px;
+   vertical-align: center;
+   height: 100%;
+   width: 95%;
+}
+
+/*.annoucements {
+    border: 2px solid grey;
+    grid-column: 5 / span 2;
+    grid-row: 2 / span 4;
+    margin: 20px 20px 0px;
+    padding-bottom:20px;
+    padding-right: 5px;
+    border-top-color: transparent;
+}
+.annoucements h3 {
+    padding:5px;
+    font-family: 'Dosis';
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+.annoucements ul {
+    list-style-image: url("images/bullet.png");
+}
+.annoucements li {
+    padding: 5px;
+}*/
+
+/*.grid-item1B {
+  font-size: 30px;
+  text-align: left;
+  max-height: 350px;
+  overflow-y: hidden;
+  grid-column: 5 / span 2;
+  grid-row: 15 / span 2;
+}
+.grid-item2A {
+  text-align: left;
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 2;
+  float: left;
+  margin-left:5px;
+  margin-bottom: 20px;
+  align-content: center;
+  padding:5px;
+}*/
+
+/*********************************************************************************/
+/* Signup and Timers                                                             */
+/*********************************************************************************/
+
+.signup {
+  text-align: center;
+  grid-column: 2 / span 4;
+  grid-row: 7 / span 2;
+  text-align: center;
+  float:right;
+  border: 2px solid rgb(94,73,129);
+  border-radius: 18px;
+  border-left-color: white;
+  border-right-color: white;
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-top:65px;
+}
+
+.signup h3 {
+    font-family: 'Barlow Condensed';
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    padding-top:0;
+
+}
+
+.signup a {
+    font-family: 'Dosis';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 8px 20px;
+}
+
+.button {
+    border: none;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(94,73,129);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Antic';
+    margin-bottom: 5px;
+    
+}
+
+.button:hover {
+    background-color: #AFA4C0;
+    color: rgb(94,73,129);
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+
+#clockdiv{
+    color: #fff;
+/*    display: inline-block;*/
+    font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.2px
+
+}
+
+#clockdiv > div{
+    /*padding: 5px;*/
+    border-radius: 2px;
+    display: inline-block;
+    border: 2px solid rgb(94,73,129);
+    border-radius: 10px;
+    width: 100px;
+}
+
+#clockdiv div > span{
+
+    padding: 10px 20px 0px;
+    /*display: inline-block;*/
+    background-color: white;
+    color: black;
+}
+
+.smalltext{
+    padding:5px;
+    font-size: 16px;
+    color: black;
+    background: white;
+    border-top-color: white;
+    text-transform: uppercase;
+}
+
+.timers {
+  grid-column: 3 / span 2;
+  grid-row: 9 / span 2;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  font-family: 'Dosis';
+}
+
+.timers body{
+  letter-spacing: 1.5px;
+  font-weight: 100;
+}
+
+.timers h3{
+    margin-bottom: 8px;
+    padding:0;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed'
+}
+
+/*********************************************************************************/
+/* Sponsors                                                                      */
+/*********************************************************************************/
+
+.sponsorship {
+    grid-row: 11 / span 1;
+    grid-column: 1 / span 6;
+    border-top: 2px solid rgb(208, 211, 212);
+}
+
+.sponsorship h2 {
+    font-family: 'Barlow Condensed';
+    font-size: 3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 5px;
+    text-align: center;
+    float:center;
+    margin-top:40px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.sponsor1-img {
+    grid-row: 12 / span 2;
+    grid-column: 1 / span 2;
+}
+
+.sponsor1-img img {
+    float: right;
+    padding-right: 25px;
+}
+
+.sponsor1-text {
+  grid-row: 12 / span 2;
+  grid-column: 3 / span 4;
+  background-image: url("images/background1.jpg");
+  padding:15px;
+  font-family: 'PT Sans Caption';
+  font-size:14px;
+  font-weight: 400;
+  margin:5px;
+  line-height: 200%;
+  border-radius: 8px;
+  border-left: 2px #E5E7E9 solid;
+  border-right: 2px #E5E7E9 solid;
+}
+
+.sponsor1-text h4 {
+   float:right;
+   margin-top:0;
+   margin-bottom:5px;
+}
+
+.sponsor2-img {
+    grid-column: 1 / span 2;
+    grid-row: 14 / span 2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sponsor2-img img {
+    float: right;
+    padding-right: 25px;
+    width: 70%;
+}
+
+.sponsor2-text {
+  grid-row: 14 / span 2;
+  grid-column: 3 / span 4;
+  background-image: url("images/background1.jpg");
+  padding:15px;
+  font-family: 'PT Sans Caption';
+  font-size:14px;
+  font-weight: 400;
+  margin:5px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  line-height: 200%;
+  border-radius: 8px;
+  border-left: 2px #E5E7E9 solid;
+  border-right: 2px #E5E7E9 solid;
+}
+
+/*********************************************************************************/
+/* Bios                                                                          */
+/*********************************************************************************/
+
+.our_team {
+    grid-row-start: 17;
+    grid-column: 2 / span 4;
+    float:center;
+    text-align: center;
+}
+
+.bio {
+    grid-column: 5 / span 2;
+    float:right;
+    width: 40%;
+}
+
+/*Names*/
+.our_team h3 {
+    font-size: 1.5em;
+    font-family: 'Barlow Condensed';
+    font-weight: 300;
+}
+
+.our_team h4 {
+    font-size: 1.5em;
+    font-family: 'Dosis';
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.header {
+    grid-row: 16 / span 1;
+    grid-column: 1 / span 6;
+   font-family: 'Barlow Condensed';
+    font-size: 3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 5px;
+    text-align: center;
+    float:center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-top: 2px solid #E5E7E9;
+}
+
+.readmore {
+    border: none;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 3px;
+    background: #AFA4C0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Antic';
+    margin: 5px;
+
+}
+
+.readmore:hover {
+    background-color: rgb(94,73,129) ;
+    color: white;
+    border-radius: 3px;
+}
+
+
+p.greyline {
+    background-color: rgb(208, 211, 212);
+    color: grey;
+    font-size: 1.5px;
+    margin-top:3px;
+    margin-bottom: 0;
+    display: block;
+}
+
+p.purpleline {
+    background-color: #AFA4C0;
+    color: grey;
+    font-size: 1.5px;
+    margin-top:3px;
+    margin-bottom: 0;
+    display: block;
+}
+
+p.text {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14pt;
+    line-height: 35px;
+
+}
+
+/*********************************************************************************/
+/* Social Media                                                                  */
+/*********************************************************************************/
+
+.socialmedia {
+  grid-column: 1 / span 6;
+  grid-row: 26 / span 1;
+  text-align: center;
+  border: 2px solid rgb(94,73,129);
+  border-left-color: transparent;
+  border-right-color: transparent;
+  padding:20px;
+}
+
+.socialmedia body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+
+.socialmedia h3{
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Barlow Condensed';
+    margin-bottom: 5px;
+
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialmedia p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+
+._12 {
+    font-size: 1.2em;
+}
+
+.socialmedia ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+
+.fa-medium {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-medium:hover {
+    background-color: #00AB6C;
+}
+
+
+/*********************************************************************************/
+/* Top Buttons                                                                 */
+/*********************************************************************************/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li { }
+
+ul.topnav li a {
+    float: right; 
+    display: block;
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    padding: 12px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dosis';
+    border: 1.3px black solid;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #AFA4C0;
+    border: 1.5px black solid;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+ul.topnav li a.active {/*background-color: #8250A7;*/}
+
+ul.topnav li a.right {
+    font-weight: bold;
+    background-color: rgb(208,211,212);
+}
+
+ul.topnav li a:hover.right {
+    font-weight: bold;
+    background-color: #AFA4C0);
+}
+
+/*********************************************************************************/
+/* Buttons                                                                    */
+/*********************************************************************************/
+
+.buttonsidebar{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 2px;
+    margin:8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Antic'
+    letter-spacing: 2px;
+}
+
+.buttonsidebar:hover {
+    background-color: rgb(94,73,129);
+    color: white;
+}
+
+form {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+form input {
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom:8px;
+}
+
+form button {
+    font-family: 'Antic';
+}
+
+
+/*********************************************************************************/
+/* SlideShow                                                                    */
+/*********************************************************************************/
+* {box-sizing:border-box}
+
+.mySlides {
+/*    position: relative;*/
+    margin: auto;
+    max-width: 90%;
+    display: inline-block;
+    height: 50%;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
