@@ -1,1 +1,240 @@
+  @media (max-width: 500px){
+        html{
+            font-size: 0.8rem;
+        }
+    }
 
+    html
+    {
+        letter-spacing: 1.5px;
+    }
+
+    #headerBF
+    {
+        border-top: 2px solid rgb(94,73,129);
+        border-bottom: 2px solid rgb(94,73,129);
+        color: #8250A7;
+        border-radius: 18px;
+      }
+
+    #fontColour
+    {
+        color: #8250A7;
+        letter-spacing: 3px;
+    }
+
+    #clockdiv 
+    {
+        border-radius: 2px;
+        border-left: 2px solid rgb(94,73,129);
+        border-right: 2px solid rgb(94,73,129);
+        border-radius: 10px;
+    }
+
+
+.jumbotron {
+    background-image: url("images/hd-wallpaper-mountain-range-mountains-114979.jpg");
+    margin-bottom: 0;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+#fluidimage {
+    background-image: url("images/night-photograph-2183637_1920.jpg");
+    margin-bottom: 0;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#contact-us {
+    background-image: url(images/victor-dittiere-578448-unsplash.jpg);
+    margin-bottom: 0;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#our-team {
+    background-image: url(images/bloom-blossom-countryside-446280.jpg);
+    margin-bottom: 0;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+#purpled {
+    color: #004B8F;
+}
+
+/*********************************************************************************/
+/* Social Media                                                                  */
+/*********************************************************************************/
+
+.socialmedia {
+    grid-column: 1 / span 6;
+    grid-row: 26 / span 1;
+    text-align: center;
+    border: 2px solid rgb(94,73,129);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding:20px;
+  }
+  
+  .socialmedia body {
+      font-family: 'Lato', sans-serif;
+      color: #FFF;
+      background: #322f30;
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  .socialmedia h3{
+      letter-spacing: 15px;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-family: 'Barlow Condensed';
+      margin-bottom: 5px;
+  
+  }
+  
+  .socialmedia a {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .socialmedia p > a:hover{
+      color: #d9d9d9;
+      text-decoration:  underline;
+  }
+  
+  ._12 {
+      font-size: 1.2em;
+  }
+  
+  .socialmedia ul {
+      padding:0;
+      list-style: none;
+  }
+  .footer-social-icons {
+      width: 350px;
+      display:block;
+      margin: 0 auto;
+  }
+  .social-icon {
+      color: #fff;
+  }
+  ul.social-icons {
+      margin-top: 10px;
+  }
+  
+  .social-icons li {
+      vertical-align: top;
+      display: inline;
+      
+  }
+
+  .social-icons a {
+      color: #fff;
+      text-decoration: none;
+  }
+  .fa-facebook {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-facebook:hover {
+      background-color: #3d5b99;
+  }
+  .fa-twitter {
+      padding:10px 12px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-twitter:hover {
+      background-color: #00aced;
+  }
+  .fa-rss {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-rss:hover {
+      background-color: #eb8231;
+  }
+  .fa-youtube {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-youtube:hover {
+      background-color: #e64a41;
+  }
+  .fa-linkedin {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-linkedin:hover {
+      background-color: #0073a4;
+  }
+  .fa-google-plus {
+      padding:10px 9px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-google-plus:hover {
+      background-color: #e25714;
+  }
+  
+  .fa-medium {
+      padding:10px 9px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-medium:hover {
+      background-color: #00AB6C;
+  }
