@@ -1,0 +1,67 @@
+.shimmer {
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+
+.shimmer:hover {
+  color: white;
+  box-shadow: 0 0 20px 0;
+  background: #98f5ee;
+}
+
+.shimmer:hover:before {
+  animation: shimmer 0.5s 0s linear;
+}
+
+.shimmer:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    opacity: 0;
+    background: white;
+    box-shadow: 0 0 10px 3px white;
+    transform: skewX(-20deg);
+}
+
+@keyframes shimmer {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#main {
+  background-image: url(https://wallpapercave.com/wp/wp239965.jpg);
+  background-size: cover;
+  margin-top:0px
+}
+
+.btn {
+  background-color: #45C3B8 !important;
+  border-color: #45C3B8 !important;
+}
+
+#team {
+  background-color: #eee
+  
+}
