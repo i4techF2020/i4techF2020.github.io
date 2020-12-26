@@ -48,20 +48,45 @@ section {
   padding-bottom: 100px;
   padding-right: 50px;
   padding-left: 50px;
+  font-family: Roboto;
+  font-weight: 300;
 }
 
 #main {
   background-image: url(https://wallpapercave.com/wp/wp239965.jpg);
   background-size: cover;
-  margin-top:-30px
+  margin-top:-30px;
 }
 
 .btn {
-  background-color: #45C3B8 !important;
-  border-color: #45C3B8 !important;
+  background-color: #364985 !important;
+  border-color: #364985 !important;
 }
 
 #team {
-  background-color: #eee
-  
+  background-color: #eee;
+  padding-top: 20px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  width: 150px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td.box {
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  padding-bottom: 20px;
+}
+
+a {
+  font-family: Roboto;
+  font-weight: 300;
 }
