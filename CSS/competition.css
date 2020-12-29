@@ -64,6 +64,10 @@ section {
   font-size: 150%;
 }
 
+#team h4 {
+  font-weight: bold;
+}
+
 .btn {
   background-color: #364985 !important;
   border-color: #364985 !important;
@@ -86,7 +90,7 @@ section {
 img {
   border: 1px solid #ddd;
   border-radius: 1px;
-  width: 150px;
+  width: 200px;
   max-width:100%;
   max-height:100%;
 }
@@ -100,7 +104,7 @@ td.box {
   border: 1px solid #b3b3b3;
   border-radius: 3px;
   padding-bottom: 20px;
-  width: 150px;
+  width: 200px;
 }
 
 a {
