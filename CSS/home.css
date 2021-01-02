@@ -1,0 +1,133 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+
+section {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+
+#main {
+    /*display: grid;
+    /*grid-template-columns: repeat(2, 700px, 1fr);*/
+    align-items: center;
+    margin-top: 30px;
+    float: right;
+    display:flex;
+    justify-content: center;
+    position: relative;
+
+  }
+
+.welcome
+{
+position: relative;
+text-align: left;
+color: black;
+
+}
+.welcome h1{
+
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 3;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    color: black;
+}
+
+.welcome h1::after{
+    content: "";
+    color: white;
+    font-weight: 2px;
+    position: absolute;
+}
+
+.welcome p{
+    margin-top: 20px;
+}
+
+@keyframes blink {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+ .signup{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .welcome h2{
+     animation: blink 6s ease;
+ }
+
+ .welcome h3{
+    animation: blink 7s ease;
+}
+
+.welcome p{
+    animation: blink 3s ease-in;
+}
+
+#video {
+
+    margin-top: 50px;
+    
+}
+
+.hoverline {
+
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+}
+
+.hoverline::after{
+
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    height: 10px;
+    background:#008080;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+
+.hoverline:hover::after{
+
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.welcome p2{
+    animation: blink 10s infinite ease;
+    margin-top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #364985;
+}
+
